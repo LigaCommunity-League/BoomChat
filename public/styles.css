@@ -1,0 +1,38 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #b3ff42;
+  }
+  
+  #login, #chat {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+  }
+  
+  #messages {
+    border: 1px solid #ddd;
+    height: 300px;
+    overflow-y: auto;
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
