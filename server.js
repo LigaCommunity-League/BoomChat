@@ -15,7 +15,7 @@ io.on('connection', (socket) => {
   // Handle user joining the chat
   socket.on('join', (username) => {
     socket.username = username;
-    io.emit('message', { username: 'BoomBot', message: `${username} has joined the chat.` });
+    io.emit('message', { username: 'Peleyadi', message: `${username} has joined the chat.` });
     console.log(username,' Has Joined');
   });
 
